@@ -20,7 +20,7 @@ const questionMock = new QuestionModel(1, 'Melhor cor de todas?', [
    ResponseModel.right('Preta'),
 ]);
 
-const BASE_URL = 'https://quiz-project-liard.vercel.app/api'
+const BASE_URL = "https://quiz-project-liard.vercel.app/api"
 
 export default function Home() {
   const router = useRouter()
